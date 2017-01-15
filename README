@@ -1,1 +1,4 @@
 this is a spider to http://www.jikexueyuan.com
+spider.py & menu.py 是爬虫，只爬取不下载，先爬取所有课程链接，存到文件里。
+login.py & load.py是登陆及下载的脚本，极客学院只有vip登陆以后才会出现下载链接，login以后爬取mp4地址使用linux wget下载。
+jike.py是另外一个模拟登陆并单独下载的脚本，从网上找的。
