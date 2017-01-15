@@ -34,8 +34,8 @@ def login():
             'expire': expire.group(1),
             'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36',
             'referer': 'http%3A%2F%2Fwww.jikexueyuan.com%2F',
-            'uname': 'wenjuan.lian@126.com',                   
-            'password': '2016skdwlaqxz',                                    
+            'uname': 'username',                   
+            'password': 'passwd',                                    
             'verify': verify,                                   
             }
     post_data = s.post(post_url,postdata)
